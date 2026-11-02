@@ -173,7 +173,7 @@ export default function NewsManager() {
           </label>
           <label className="block">
             <span className="text-sm font-bold">Tanggal</span>
-            <input value={form.date} onChange={(e) => setForm({ ...form, date: e.target.value })} className="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3" placeholder="3 Oktober 2026" />
+            <input value={form.date ?? ""} onChange={(e) => setForm({ ...form, date: e.target.value })} className="mt-2 w-full rounded-xl border border-slate-200 px-4 py-3" placeholder="3 Oktober 2026" />
           </label>
           <label className="block md:col-span-2">
             <span className="text-sm font-bold">Judul</span>
