@@ -1,0 +1,2 @@
+import CrudPage from "@/components/admin/CrudPage";
+export default function Page(){return <CrudPage title="FAQ" collection="faqs" description="Kelola pertanyaan yang sering diajukan masyarakat dan calon siswa." fields={[{key:"category",label:"Kategori",placeholder:"Calon Siswa / PPDB / Program / Umum",required:false},{key:"question",maxLength:180,label:"Pertanyaan",placeholder:"Pertanyaan"},{key:"answer",label:"Jawaban",placeholder:"Jawaban resmi",textarea:true}]}/>}

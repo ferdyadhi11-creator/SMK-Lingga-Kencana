@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<rect width="256" height="256" rx="56" fill="#0B66C3"/>
+<path d="M128 42 202 70v54c0 49-31 76-74 91-43-15-74-42-74-91V70l74-28Z" fill="#fff" opacity=".96"/>
+<path d="m128 67 45 17v37c0 30-17 49-45 61-28-12-45-31-45-61V84l45-17Z" fill="#0B66C3"/>
+<text x="128" y="125" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700" fill="#FDBB24">LK</text>
+</svg>

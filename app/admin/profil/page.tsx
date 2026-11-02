@@ -1,0 +1,3 @@
+import ProfileManager from "@/components/admin/ProfileManager";
+import AdminGuard from "@/components/admin/AdminGuard";
+export default function Page(){return <AdminGuard><main className="min-h-screen bg-slate-50 p-5 md:p-8"><div className="mx-auto max-w-6xl"><div className="mb-7"><a href="/admin" className="text-sm font-bold text-slate-600 hover:text-blue-700">← Kembali ke Dashboard</a><p className="mt-5 text-xs font-black uppercase tracking-[.15em] text-blue-700">Admin Panel</p><h1 className="mt-1 text-3xl font-black">Kelola Profil Sekolah</h1><p className="mt-2 text-slate-500">Kelola identitas dan informasi utama sekolah.</p></div><ProfileManager/></div></main></AdminGuard>}
